@@ -14,6 +14,8 @@
 		9A0CB67C1AC018CB00A56654 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0CB67B1AC018CB00A56654 /* Images.xcassets */; };
 		9A0CB67F1AC018CB00A56654 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0CB67D1AC018CB00A56654 /* LaunchScreen.xib */; };
 		9A0CB68B1AC018CB00A56654 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB68A1AC018CB00A56654 /* HypnosisterTests.m */; };
+		9A0CB6961AC0197500A56654 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB6951AC0197500A56654 /* BNRHypnosisView.m */; };
+		9A988F051AC3FDB900DCEAE0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A988F041AC3FDB900DCEAE0 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		9A0CB6841AC018CB00A56654 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0CB6891AC018CB00A56654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0CB68A1AC018CB00A56654 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		9A0CB6941AC0197500A56654 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisView.h; path = ../BNRHypnosisView.h; sourceTree = "<group>"; };
+		9A0CB6951AC0197500A56654 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisView.m; path = ../BNRHypnosisView.m; sourceTree = "<group>"; };
+		9A988F041AC3FDB900DCEAE0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Solutions/00-Resources/logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		9A0CB66D1AC018CB00A56654 /* Hypnosister */ = {
 			isa = PBXGroup;
 			children = (
+				9A988F041AC3FDB900DCEAE0 /* logo.png */,
+				9A0CB6941AC0197500A56654 /* BNRHypnosisView.h */,
+				9A0CB6951AC0197500A56654 /* BNRHypnosisView.m */,
 				9A0CB6721AC018CB00A56654 /* AppDelegate.h */,
 				9A0CB6731AC018CB00A56654 /* AppDelegate.m */,
 				9A0CB6751AC018CB00A56654 /* ViewController.h */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A988F051AC3FDB900DCEAE0 /* logo.png in Resources */,
 				9A0CB67A1AC018CB00A56654 /* Main.storyboard in Resources */,
 				9A0CB67F1AC018CB00A56654 /* LaunchScreen.xib in Resources */,
 				9A0CB67C1AC018CB00A56654 /* Images.xcassets in Resources */,
@@ -221,6 +230,7 @@
 			files = (
 				9A0CB6771AC018CB00A56654 /* ViewController.m in Sources */,
 				9A0CB6741AC018CB00A56654 /* AppDelegate.m in Sources */,
+				9A0CB6961AC0197500A56654 /* BNRHypnosisView.m in Sources */,
 				9A0CB6711AC018CB00A56654 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +422,7 @@
 				9A0CB6901AC018CB00A56654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0CB6911AC018CB00A56654 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				9A0CB6931AC018CB00A56654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
